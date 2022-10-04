@@ -23,15 +23,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-<<<<<<< HEAD
-=======
-
-        compileOptions {
-            sourceCompatibility JavaVersion.VERSION_11
-            targetCompatibility JavaVersion.VERSION_11
-        }
-
->>>>>>> ed7236b2e99b1607c2d216e8f68789abd83dc2fc
     }
 
     signingConfigs {
