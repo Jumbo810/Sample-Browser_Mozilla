@@ -24,6 +24,16 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    signingConfigs {
+        release {
+            storeFile file('../keystore.jks')
+            keyAlias 'jumbo'
+            storePassword 'Parot786'
+            keyPassword 'Parot786'
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
