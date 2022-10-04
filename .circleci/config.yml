@@ -36,6 +36,10 @@ jobs:
 
       # And finally run the release build
       - run:
+          name: Allow Executeable Permission
+          command: |
+            chmod +x gradlew
+      - run:
           name: Assemble Release Build
           command: |
             ./gradlew assembleRelease
